@@ -6,45 +6,50 @@
         <title>
             Portifolio - GitHub
          </title>
-
+         
          <link rel="stylesheet" href="css/style.css">
-
+         
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
      </head>  
      
-     
-
      <body>
-         <navbar>
-             <ul>
-                 <li>
-                     <a href="#formacao">Formação</a>
-                 </li>
-                 <li>
-                     <a href="#portifolio">Portifolio</a>
-                 </li>
-                 <li>
-                     <a href="#contato">Contato</a>
-                 </li>
-             </ul>
-         </navbar>
+         <header>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="#formacao">Formação</a>
+                    </li>
+                    <li>
+                        <a href="#portifolio">Portifolio</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+         </header>
+         
          <main>
 <figure> 
     <img src="./imagem/Bê_foto_de_perfil.png" alt=" Foto de perfil da Beatriz Turba" width="200px">
 </figure>
-      <h1 style="color: red">Beatriz Turba</h1>
-      <h2>Desenvolvedora web</h2>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <h1 class="title">Beatriz Turba</h1>
+      <h2 class="subtitle">Desenvolvedora web</h2>
+      <p class="intro">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </main>
-<section id=" formacao"> 
-    <h1> Formação</h1>
+<section > 
+    <h1 class="formacao">Formação</h1>
 <ul> 
     <li>
-    <h4> Curso de desenvolvimento</h4>
+    <h4 id="id"> Curso de desenvolvimento</h4>
     <h4><a href="https://minasprogramam.com/">Link do curso</a></h4>
     <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
 </li>
 <li>
-   <h4> Instagram</h4>
+   <h4> Curdo de agile</h4>
    <h4><a href="https://www.instagram.com/beturba/" target="_black">link do curso</a> </h4>
    <p>Nulla tristique, dui nec tincidunt lobortis, quam orci aliquet nulla, id ultrices odio metus ut sapien. Phasellus non mauris in elit luctus ornare. Cras posuere est at urna accumsan, a ultricies nibh rhoncus. Nam et nibh ultrices, semper risus eu, blandit ante. Morbi ut nulla non leo blandit gravida. Suspendisse non pulvinar ex. Pellentesque vulputate laoreet mi, a consequat lectus sagittis eleifend. Vestibulum imperdiet est a magna dignissim, consequat maximus tellus pulvinar. </p>
 
@@ -54,9 +59,8 @@
 </ul>
 </section>
 <section>
-
-
-   <h1>Portifolio</h1> 
+ 
+    <h1 class="portifolio">Portifolio</h1> 
    <ul>
        <li>
 
@@ -78,9 +82,11 @@
     </li>
 </ul>
 </section>
-<section id="portifolio"></section>
+<section id="portifolio" class="bg-dark"> 
 
-<footer id="contato"> 
+</section>
+
+<footer id="contato" class="bg-dark"> 
    <div>
     <i class="fas fa-envelopes-square"></i>
      <a href="mailto:contatobeturba@gmail.com">contatobeturba@gmail.com</a>
