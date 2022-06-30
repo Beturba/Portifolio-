@@ -28,7 +28,7 @@ li {
 font-weight: 700;
 font-size: 18px;
 line-height: 25px;
-color: #ffffff;
+color: #f1edf0;
 text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ text-decoration: none;
 }
 
 .intro-content {
-    background-color:#EDEAEA;
+    background-color:#eebdd4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,12 +60,12 @@ text-decoration: none;
 .subtitle{
     font-family: 'ABeeZee', sans-serif;
     font-size: 24px;
-    color: #C5C0C0;
+    color: #fffefe;
 
 }
 
 .intro{
-    color: #000000;
+    color: #938DF8;
     font-size: 16px;
     display: flex;
     max-width: 490px;
@@ -74,7 +74,7 @@ text-decoration: none;
 
 section h1 {      
 font-size: 24px;
-color: #49BFB3;
+color: #ca4caf;
 margin-right: 50px;
 }
 
@@ -87,19 +87,21 @@ margin-right: 50px;
 
 #portfolio {
     background-color:#EDEAEA;
+
+    
 }
 
 .descricao {
     font-size: 16px;
     line-height: 22px;
-    color: #828282;
+    color: #938DF8;
     font-weight: 700;
 
 }
 
 
 #contato {
-    background-color: #5A53D8;
+    background-color: #938DF8;
     height: 200px;
     padding-left: 50px;
     padding-top: 40px;
@@ -115,4 +117,4 @@ margin-right: 50px;
     color: #ffffff;
     text-decoration: none;
 
-
+  }
